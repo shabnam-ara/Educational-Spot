@@ -1,0 +1,228 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Hero Section Styles */
+#hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#hero h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+#hero p {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #666;
+
+}
+
+#hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Features Section Styles */
+#features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.feature img {
+    max-width: 150%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#additional-features{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* padding: 80px 0; */
+
+}
+
+.additional-feature {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.additional-feature img{
+
+    max-width: 150%;
+    height: auto;
+    margin-bottom: 20px;
+  
+
+}
+
+
+
+/* Testimonials Section Styles */
+#testimonials {
+    background-color: #dbd2d2;
+    padding: 100px 0;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: black;
+}
+
+.testimonial cite {
+    font-weight: bold;
+}
+
+/* Contact Form Styles */
+#contact {
+    background-color: #f0f0f0; /* Use your preferred shade of gray */
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+#contact h2 {
+    color: #333; /* Set the text color for better contrast */
+}
+
+#contact-form {
+    max-width: 600px; /* Adjust the maximum width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555; /* Set label color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Set your preferred button color */
+    color: #fff; /* Set button text color */
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /* Set the hover color for the button */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
